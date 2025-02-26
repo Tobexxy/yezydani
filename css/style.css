@@ -344,7 +344,7 @@ li {
 
 .icon-facebook:before {
 	content: "\e906";
-	color: #999;
+	color: #222222;
 }
 
 .icon-heart:before {
@@ -357,12 +357,12 @@ li {
 
 .icon-in:before {
 	content: "\e909";
-	color: #999;
+	color: #222222;
 }
 
 .icon-insta:before {
 	content: "\e90a";
-	color: #fff;
+	color: #222222;
 }
 
 .icon-mail:before {
@@ -410,7 +410,7 @@ li {
 
 .icon-twitter:before {
 	content: "\e915";
-	color: #999;
+	color: #222222;
 }
 
 .icon-user:before {
@@ -3104,8 +3104,9 @@ h6,
 }
 
 .products-item__img {
+	/* 570px */
 	position: relative;
-	height: 570px;
+	height: 240px;
 	width: 100%;
 }
 

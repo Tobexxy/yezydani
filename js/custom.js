@@ -172,7 +172,7 @@ $(function(){
 	/* info block item play */
 	$('.info-blocks__item-img-play').on('click', function(e){
 		$(this).parent().css('display', 'none');
-		let videoSrc = "https://www.youtube.com/embed/K1yp7Q1hH1c?autoplay=1";
+		let videoSrc = "https://www.youtube.com/embed/CkntZ7ijS2s?si=aGAZ8g6x8naL4ZUy";
 		e.preventDefault();
 		$(this).parents().find('iframe').attr('src', videoSrc);
 	});
@@ -198,7 +198,7 @@ $(function(){
                 zoom: 15,
 				scrollwheel: false,
 				disableDefaultUI: true,
-                center: new google.maps.LatLng(40.7139741, -73.99612345),
+                center: new google.maps.LatLng(58.55639, -50.03797,),
                 styles: [
 					{
 					  "elementType": "geometry",

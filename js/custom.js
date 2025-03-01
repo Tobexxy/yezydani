@@ -172,7 +172,15 @@ $(function(){
 	/* info block item play */
 	$('.info-blocks__item-img-play').on('click', function(e){
 		$(this).parent().css('display', 'none');
-		let videoSrc = "https://www.youtube.com/embed/CkntZ7ijS2s?si=aGAZ8g6x8naL4ZUy";
+		let videoSrc = "https://player.vimeo.com/video/1060326091?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479";
+		e.preventDefault();
+		$(this).parents().find('iframe').attr('src', videoSrc);
+	});
+	/* info block item play */
+
+	$('.info-blocks__item-img-play1').on('click', function(e){
+		$(this).parent().css('display', 'none');
+		let videoSrc = "https://player.vimeo.com/video/1060696936?badge=0&amp;autopause=0&amp;player_id=0&amp;player_id=0&amp;app_id=58479" 
 		e.preventDefault();
 		$(this).parents().find('iframe').attr('src', videoSrc);
 	});
